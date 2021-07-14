@@ -15,5 +15,6 @@ public class Client {
         Product product = director.construct();
         product.show();
         System.out.println("Hello");
+        System.out.println("创建dev1");
     }
 }
