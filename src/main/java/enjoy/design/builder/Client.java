@@ -14,5 +14,6 @@ public class Client {
         Director director = new Director(builder);
         Product product = director.construct();
         product.show();
+        System.out.println("Hello");
     }
 }
